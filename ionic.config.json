@@ -1,5 +1,7 @@
 {
   "name": "tidbeta",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

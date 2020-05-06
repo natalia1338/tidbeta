@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar  color="tertiary">
+    <ion-title>Fornecedor</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list inset>
+    
+    <ion-item>
+      <ion-label >Razao Social</ion-label>
+      <ion-input color="tertiary" type="string"  value="" [(ngModel)]="cadastroforecedordata.Razao_social"> </ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label >CNPJ</ion-label>
+      <ion-input color="tertiary" type="int"  value="" [(ngModel)]="cadastroforecedordata.CNPJ"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >Telefone</ion-label>
+      <ion-input color="tertiary" type="int"  value="" [(ngModel)]="cadastroforecedordata.Telefone"> </ion-input>
+    </ion-item>
+
+   
+      <ion-label >CEP</ion-label>
+      <ion-input color="tertiary" type="int"  value="" [(ngModel)]="cadastroforecedordata.CEP"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >Rua</ion-label>
+      <ion-input color="tertiary" type="string"  value="" [(ngModel)]="cadastroforecedordata.Rua"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >Numero</ion-label>
+      <ion-input color="tertiary" type="int"  value="" [(ngModel)]="cadastroforecedordata.numero"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >Cidade</ion-label>
+      <ion-input color="tertiary" type="string"  value="" [(ngModel)]="cadastroforecedordata.Cidade"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >Estado</ion-label>
+      <ion-input color="tertiary" type="string"  value="" [(ngModel)]="cadastroforecedordata.Estado"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >Pais</ion-label>
+      <ion-input color="tertiary" type="string"  value="" [(ngModel)]="cadastroforecedordata.Pais"> </ion-input>
+    </ion-item>
+
+    
+  </ion-list>
+<ion-button full (click)="Cadastrofornecedor()" expand="block" color="tertiary">Cadastrar Fornecedor</ion-button>
+</ion-content>

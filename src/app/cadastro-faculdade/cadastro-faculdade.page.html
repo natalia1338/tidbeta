@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar  color="tertiary">
+    <ion-title>Cadastro da faculdade</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list inset>
+    
+    <ion-item>
+      <ion-label >Faculdade</ion-label>
+      <ion-input color="tertiary" type="string"  value="" [(ngModel)]="cadastrofacudata.faculdade"> </ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label >Numero da matricula</ion-label>
+      <ion-input color="tertiary" type="int"  value="" [(ngModel)]="cadastrofacudata.Num_da_matricula"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >status</ion-label>
+      <ion-input color="tertiary" type="int"  value="" [(ngModel)]="cadastrofacudata.Status"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >cargo</ion-label>
+      <ion-input color="tertiary" type="string"  value="" [(ngModel)]="cadastrofacudata.Cargo"> </ion-input>
+    </ion-item>
+
+
+    <ion-item>
+      <ion-label >CEP</ion-label>
+      <ion-input color="tertiary" type="int"  value="" [(ngModel)]="cadastrofacudata.CEP"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >Rua</ion-label>
+      <ion-input color="tertiary" type="string"  value="" [(ngModel)]="cadastrofacudata.Rua"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >Numero</ion-label>
+      <ion-input color="tertiary" type="int"  value="" [(ngModel)]="cadastrofacudata.numero"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >Cidade</ion-label>
+      <ion-input color="tertiary" type="string"  value="" [(ngModel)]="cadastrofacudata.Cidade"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >Estado</ion-label>
+      <ion-input color="tertiary" type="string"  value="" [(ngModel)]="cadastrofacudata.Estado"> </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >Pais</ion-label>
+      <ion-input color="tertiary" type="string"  value="" [(ngModel)]="cadastrofacudata.Pais"> </ion-input>
+    </ion-item>
+
+   
+
+  </ion-list>
+<ion-button full (click)="Cadastrofaculdade()" expand="block" color="tertiary">Cadastrar faculdade</ion-button>
+</ion-content>
